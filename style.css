@@ -15,7 +15,7 @@ header {
     top: 0;
 }
 
-header > h2 {
+header > h1 {
     font-size: 40px;
     align-content: center;
     padding-left: 10px;
