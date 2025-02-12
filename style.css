@@ -1,0 +1,190 @@
+/* Font family selection */
+* {
+    font-family: Kalam, serif;
+    overflow: hidden;
+}
+
+/* Nav bar construction */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #d8d8d8;
+    position: absolute;
+    width: 100%;
+    height: 118px;
+    top: 0;
+}
+
+header > h2 {
+    font-size: 40px;
+    align-content: center;
+    padding-left: 10px;
+}
+
+.page-links > nav > ul {
+    display: flex;
+    margin-top: 0;
+}
+
+.page-links > nav > ul > li {
+    color: white;
+    list-style-type: none;
+    width: 340px;
+    height: 73px;
+    align-content: center;
+    text-align: center;
+    font-size: 24px;
+}
+
+.page-links > nav > ul > #link-1 {
+    background-color: #8A5B46;
+}
+
+.page-links > nav > ul #link-2 {
+    background-color: #7e5644;
+}
+
+.page-links > nav > ul  #link-3 {
+    background-color: #753e2d;
+}
+
+.page-links > nav > ul  #link-4 {
+    background-color: #683626;
+}
+
+a:hover {
+    color: beige;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Home page boxes */
+#home-section {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#class-schedule {
+    background-color: #753E2D;
+    align-content: center;
+    text-align: center;
+    width: 250px;
+    height: 400px;
+    order: 1;
+    border-radius: 30px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+#call-to-action {
+    background-color: rgba(126, 86, 68, 0.75);
+    align-content: center;
+    text-align: center;
+    width: 600px;
+    height: 650px;
+    order: 2;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+#upcoming-events {
+    background-color: #753E2D;
+    align-content: center;
+    text-align: center;
+    width: 250px;
+    height: 400px;
+    order: 3;
+    border-radius: 30px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+/* Store page boxes*/
+.store-items {
+    columns: 50px 2;
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    height: auto;
+    margin-left: 100px;
+}
+
+.store-items > div {
+    columns: 20px 2;
+    align-content: center;
+    text-align: center;
+    width: 600px;
+    height: 150px;
+    background: #7E5644;
+    border-radius: 28px;
+    margin: 23px;
+    padding: 5px;
+}
+
+.store-items > div > div > img {
+    width: 195px;
+    height: 104px;
+    border-radius: 12px;
+}
+
+.button-image-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.button-image-group > input {
+    width: 100px;
+    height: 25px;
+    margin: 2px;
+    border-radius: 5px;
+    border: none;
+}
+
+input:active {
+    background: grey;
+}
+
+/*Sign up form*/
+.form-section {
+    display: flex;
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.form-section > div {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    background: #8A5B46;
+    box-shadow: 0 8px 8px 0 rgba(138, 91, 70, 0.25);
+    width: 681px;
+    height: 583px;
+    text-align: center;
+}
+
+.form-section > div > div > .signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section > div > div > .signup-form > input, select {
+    width: 611px;
+    height: 52px;
+    border-radius: 14px;
+    border: none;
+    margin: 8px;
+}
