@@ -27,25 +27,27 @@
         <section class="form-section">
             <div>
                 <h2>
-                    <em style="color: white;">The Potter's Wheel Sign-up</em>
+                    <em style="color: white;">The Potter's Wheel Class Sign-up</em>
                 </h2>
                 <div>
-                    <form class="signup-form">
-                        <input type="text" placeholder="Enter first name...">
-                        <input type="text" placeholder="Enter last name...">
-                        <input type="email" placeholder="Enter email...">
-                        <select>
+                    <form action="#" id="signup-form" method="post">
+                        <input type="text" id="firstname" placeholder="Enter first name..." required>
+                        <input type="text" id="lastname" placeholder="Enter last name..." required>
+                        <input type="email" id="email" placeholder="Enter email..." required>
+                        <select required>
                             <option value="Select a class...">Select a class...</option>
                             <option value="monday">Monday 2pm - 4pm</option>
                             <option value="wednesday">Wednesday 2pm - 4pm</option>
                             <option value="friday">Friday 3pm - 5pm</option>
                         </select>
-                        <input type="text" placeholder="Enter card number...">
-                        <input type="text" placeholder="Enter card pin...">
-                        <input type="text" placeholder="Enter current billing address...">
+                        <input type="text" id="card" placeholder="Enter card number..." required>
+                        <input type="text" id="pin" placeholder="Enter card pin..." required>
+                        <input type="text" placeholder="Enter current billing address..." required>
+                        <button type="submit">Submit</button>
                     </form>
                 </div>
             </div>
         </section>
+        <script src="script.js"></script>
     </body>
 </html>

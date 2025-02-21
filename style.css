@@ -16,14 +16,15 @@ header {
 }
 
 header > h1 {
-    font-size: 40px;
+    font-size: 35px;
     align-content: center;
     padding-left: 10px;
 }
 
 .page-links > nav > ul {
     display: flex;
-    margin-top: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .page-links > nav > ul > li {
@@ -84,10 +85,11 @@ a {
     order: 1;
     border-radius: 30px;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.25);
+    padding: 15px;
 }
 
 #call-to-action {
-    background-color: rgba(126, 86, 68, 0.75);
+    background-color: #683627;
     align-content: center;
     text-align: center;
     width: 600px;
@@ -95,6 +97,7 @@ a {
     order: 2;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.25);
     border-radius: 30px;
+    padding: 15px;
 }
 
 #upcoming-events {
@@ -106,6 +109,7 @@ a {
     order: 3;
     border-radius: 30px;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.25);
+    padding: 15px;
 }
 
 /* Store page boxes*/
@@ -145,7 +149,7 @@ a {
 }
 
 .button-image-group > input {
-    width: 100px;
+    width: 60px;
     height: 25px;
     margin: 2px;
     border-radius: 5px;
@@ -174,16 +178,24 @@ input:active {
     background: #8A5B46;
     box-shadow: 0 8px 8px 0 rgba(138, 91, 70, 0.25);
     width: 681px;
-    height: 583px;
+    height: 630px;
     text-align: center;
 }
 
-.form-section > div > div > .signup-form {
+.form-section > div > div > #signup-form {
     display: flex;
     flex-direction: column;
 }
 
-.form-section > div > div > .signup-form > input, select {
+.form-section > div > div > #signup-form > input, select {
+    width: 611px;
+    height: 52px;
+    border-radius: 14px;
+    border: none;
+    margin: 8px;
+}
+
+.form-section > div > div > #signup-form > button {
     width: 611px;
     height: 52px;
     border-radius: 14px;
